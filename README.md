@@ -15,7 +15,7 @@ A comprehensive mentorship platform built with React that connects mentors with 
 
 ```
 src/
-├── components/          # Reusable components
+├── components/         # Reusable components
 │   ├── Footer/         # Site-wide footer
 │   └── Navbar/         # Navigation component
 ├── data/               # Data management
