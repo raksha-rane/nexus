@@ -2,6 +2,8 @@
 
 A comprehensive mentorship platform built with React that connects mentors with mentees. This platform facilitates mentor discovery, booking sessions, and communication between mentors and mentees.
 
+[Deployed Application](https://nexus-mentor-connect.vercel.app/)
+
 ## Features
 
 - 👥 Browse and search for mentors
