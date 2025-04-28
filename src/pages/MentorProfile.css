@@ -1,0 +1,348 @@
+.mentor-profile-page {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  min-height: 100vh;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  position: relative;
+}
+
+.mentor-header {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.online-indicator {
+  width: 16px;
+  height: 16px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1.5rem;
+  right: calc(50% - 60px);
+  border: 3px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  background: linear-gradient(45deg, #1a237e, #0d47a1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  color: #1a237e;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.experience {
+  color: #666;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.expertise-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.expertise-tags .badge {
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  background: rgba(26, 35, 126, 0.1) !important;
+  color: #1a237e !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.expertise-tags .badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(26, 35, 126, 0.15);
+}
+
+.bio {
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.mentor-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1a237e;
+  font-size: 0.95rem;
+}
+
+.stat i {
+  color: #fbbf24;
+}
+
+/* Booking Section Styles */
+.booking-section {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.booking-section h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1a237e;
+}
+
+.calendar-container {
+  margin-bottom: 2rem;
+}
+
+/* Custom Calendar Styles */
+.custom-calendar {
+  width: 100%;
+  border: none !important;
+  border-radius: 15px;
+  padding: 1rem;
+  background: #f8f9fa;
+}
+
+.react-calendar__tile {
+  padding: 1.5rem 0.5rem !important;
+  font-size: 1rem;
+  position: relative;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus,
+.react-calendar__tile--active {
+  background: linear-gradient(135deg, #1a237e, #0d47a1) !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.react-calendar__tile--now {
+  background: rgba(26, 35, 126, 0.1) !important;
+  border-radius: 10px;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background: rgba(26, 35, 126, 0.1) !important;
+  border-radius: 10px;
+}
+
+/* Time Slots Styles */
+.time-slots h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1a237e;
+}
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.slot-btn {
+  padding: 0.8rem;
+  border: 2px solid rgba(26, 35, 126, 0.1);
+  border-radius: 12px;
+  background: white;
+  color: #1a237e;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.slot-btn:hover:not(:disabled) {
+  background: rgba(26, 35, 126, 0.05);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(26, 35, 126, 0.1);
+}
+
+.slot-btn.selected {
+  background: linear-gradient(135deg, #1a237e, #0d47a1);
+  color: white;
+  border-color: transparent;
+}
+
+.slot-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.slot-btn.booked {
+  background: #f8e6e6;
+  color: #8b0000;
+  border-color: #deb0b0;
+  cursor: not-allowed;
+  position: relative;
+  opacity: 0.9;
+  box-shadow: none;
+  transition: none;
+}
+
+.slot-btn.booked:hover {
+  transform: none;
+  box-shadow: none;
+  background: #f8e6e6;
+}
+
+.booked-indicator {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #8b0000;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(139, 0, 0, 0.2);
+}
+
+/* Add a subtle cross-out effect to booked slots */
+.slot-btn.booked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(139, 0, 0, 0.2);
+  transform: rotate(-5deg);
+}
+
+.selected-datetime {
+  background: rgba(26, 35, 126, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  color: #1a237e;
+  font-weight: 500;
+  text-align: center;
+}
+
+.booking-confirmation .btn-primary {
+  background: linear-gradient(135deg, #1a237e, #0d47a1);
+  border: none;
+  padding: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.booking-confirmation .btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(26, 35, 126, 0.3);
+}
+
+/* Chat Section Styles */
+.chat-section {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.chat-section h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1a237e;
+}
+
+.chat-container {
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+}
+
+.toast {
+  min-width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  opacity: 1;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-card, .booking-section, .chat-section {
+    padding: 1.5rem;
+  }
+
+  .slots-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .mentor-stats {
+    gap: 1rem;
+  }
+
+  .chat-container {
+    height: 400px;
+  }
+}

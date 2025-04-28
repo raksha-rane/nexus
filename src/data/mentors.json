@@ -1,0 +1,154 @@
+{
+  "mentors": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "title": "Senior Software Engineer",
+      "expertise": ["Web Development", "React", "Node.js", "System Design"],
+      "experience": "8",
+      "photo": "https://plus.unsplash.com/premium_photo-1690395794791-e85944b25c0f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Experienced software engineer passionate about helping others grow in their tech careers. Specialized in web development and modern JavaScript frameworks.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "title": "Product Manager",
+      "expertise": ["Product Strategy", "UX Design", "Agile", "Market Research"],
+      "experience": "10",
+      "photo": "https://plus.unsplash.com/premium_photo-1689977871600-e755257fb5f8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Product leader with experience in both startups and large tech companies. Passionate about building user-centric products and mentoring future product managers.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 3,
+      "name": "Emily Rodriguez",
+      "title": "Data Scientist",
+      "expertise": ["Machine Learning", "Python", "Data Analysis", "AI"],
+      "experience": "6",
+      "photo": "https://images.unsplash.com/photo-1699899657680-421c2c2d5064?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Data scientist with focus on machine learning and AI applications. Experienced in helping newcomers break into the field of data science.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 4,
+      "name": "James Wilson",
+      "title": "UI/UX Designer",
+      "expertise": ["User Research", "Figma", "Design Systems", "Prototyping"],
+      "experience": "7",
+      "photo": "https://plus.unsplash.com/premium_photo-1689629870780-5d0e655383e6?q=80&w=2940&auto=format&fit=crop",
+      "bio": "Designer focused on creating intuitive and beautiful user experiences. Passionate about teaching design principles and mentoring aspiring designers.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 5,
+      "name": "Priya Patel",
+      "title": "Marketing Director",
+      "expertise": ["Digital Marketing", "Brand Strategy", "Content Marketing", "SEO"],
+      "experience": "9",
+      "photo": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1974&auto=format&fit=crop",
+      "bio": "Marketing expert with experience in scaling startups and managing global campaigns. Specializes in digital marketing and brand development.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 6,
+      "name": "David Kim",
+      "title": "Cloud Architect",
+      "expertise": ["AWS", "Azure", "DevOps", "Cloud Security"],
+      "experience": "12",
+      "photo": "https://plus.unsplash.com/premium_photo-1689708721750-8a0e6dc14cee?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Cloud computing expert with extensive experience in architecting scalable solutions. Passionate about teaching cloud technologies and best practices.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 7,
+      "name": "Dr. Rachel Chen",
+      "title": "Healthcare Innovation Director",
+      "expertise": ["Healthcare Technology", "Medical Research", "Digital Health", "Project Management"],
+      "experience": "15",
+      "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1970&auto=format&fit=crop",
+      "bio": "Leading healthcare innovation expert with experience in implementing digital health solutions and managing medical research projects. Passionate about mentoring healthcare professionals and technologists looking to make an impact in healthcare.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 8,
+      "name": "Marcus Thompson",
+      "title": "Investment Banking VP",
+      "expertise": ["Financial Markets", "Investment Strategy", "Corporate Finance", "Risk Management"],
+      "experience": "12",
+      "photo": "https://plus.unsplash.com/premium_photo-1689977807477-a579eda91fa2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Vice President at a leading investment bank with expertise in corporate finance and M&A. Dedicated to helping young professionals navigate the financial services industry and develop their careers.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 9,
+      "name": "Sofia Martinez",
+      "title": "Creative Director",
+      "expertise": ["Brand Design", "Art Direction", "Digital Marketing", "Creative Strategy"],
+      "experience": "10",
+      "photo": "https://images.unsplash.com/photo-1701096351544-7de3c7fa0272?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Award-winning creative director with experience working with global brands. Passionate about nurturing creative talent and helping artists develop their professional portfolio and career strategy.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 10,
+      "name": "Dr. Alexander Wright",
+      "title": "Education Technology Researcher",
+      "expertise": ["EdTech", "Curriculum Development", "Learning Analytics", "Educational Psychology"],
+      "experience": "14",
+      "photo": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Education technology researcher and former teacher with expertise in learning analytics and curriculum development. Committed to mentoring educators and EdTech entrepreneurs.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 11,
+      "name": "Rosa Perez",
+      "title": "Sustainability Consultant",
+      "expertise": ["Environmental Management", "Green Technology", "Corporate Sustainability", "ESG"],
+      "experience": "8",
+      "photo": "https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Sustainability expert helping organizations implement green initiatives. Passionate about mentoring the next generation of environmental leaders and sustainable business practitioners.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 12,
+      "name": "Robert Goldwin",
+      "title": "Biotech Research Director",
+      "expertise": ["Biotechnology", "Drug Development", "Clinical Trials", "Research Management"],
+      "experience": "16",
+      "photo": "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Biotech research director with experience in drug development and clinical trials. Dedicated to mentoring scientists and helping them bridge the gap between research and industry.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 13,
+      "name": "Lisa Anderson",
+      "title": "HR Director",
+      "expertise": ["Human Resources", "Talent Development", "Organizational Development", "DEI"],
+      "experience": "13",
+      "photo": "https://plus.unsplash.com/premium_photo-1690294614341-cf346ba0a637?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "HR leader specializing in talent development and DEI initiatives. Passionate about helping professionals navigate career transitions and develop leadership skills.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 14,
+      "name": "Ahmed Hassan",
+      "title": "Cybersecurity Architect",
+      "expertise": ["Information Security", "Cloud Security", "Risk Assessment", "Security Architecture"],
+      "experience": "11",
+      "photo": "https://plus.unsplash.com/premium_photo-1689565611422-b2156cc65e47?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Cybersecurity expert with experience in designing secure systems for Fortune 500 companies. Committed to mentoring the next generation of security professionals.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    },
+    {
+      "id": 15,
+      "name": "Jessica Zhang",
+      "title": "UX Research Lead",
+      "expertise": ["User Research", "Product Strategy", "Behavioral Analysis", "Design Thinking"],
+      "experience": "9",
+      "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop",
+      "bio": "UX research expert specializing in user behavior and product strategy. Passionate about mentoring designers and researchers in creating user-centered products.",
+      "availableSlots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
+    }
+  ]
+}
