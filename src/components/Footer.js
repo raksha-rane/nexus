@@ -10,7 +10,7 @@ const Footer = () => {
   const socials = [
     { icon: 'linkedin', url: 'https://linkedin.com', label: 'LinkedIn' },
     { icon: 'twitter', url: 'https://twitter.com', label: 'Twitter' },
-    { icon: 'github', url: 'https://github.com', label: 'GitHub' }
+    { icon: 'github', url: 'https://github.com/raksha-rane/nexus', label: 'GitHub' }
   ];
 
   const validateEmail = (email) => {
